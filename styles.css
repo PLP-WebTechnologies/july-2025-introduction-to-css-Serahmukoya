@@ -1,0 +1,45 @@
+/* Element selector - applies to all h1 tags */
+h1 {
+    color: darkblue;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Class selector */
+.highlight {
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+    font-weight: bold;
+}
+
+/* ID selector  */
+#footer {
+    background-color:grey;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Box model  on nav links */
+nav a {
+    display: inline-block;
+    background-color: lightblue;
+    color: black;
+    text-decoration: none;
+    padding: 10px;      
+    margin: 5px;      
+    border: 2px solid navy;
+    width: 120px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/*  styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
